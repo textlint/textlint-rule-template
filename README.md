@@ -13,7 +13,7 @@ Run following steps:
 
 ```sh
 ruleName="textlint-rule-<rule-name>"
-git clone --depth=1 https://github.com/textlint/textlint-rule-template ${ruleName}
+git clone --depth=1 https://github.com/textlint/textlint-rule-template.git ${ruleName}
 cd ${ruleName}
 # Initialize git
 rm -rf .git/
