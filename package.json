@@ -1,19 +1,19 @@
 {
+  "version": "1.0.0",
+  "keywords": [
+    "textlint",
+    "rule"
+  ],
+  "main": "lib/index.js",
   "files": [
     "lib/",
     "src/"
   ],
-  "version": "1.0.0",
-  "main": "lib/index.js",
   "scripts": {
     "test": "textlint-scripts test",
     "build": "textlint-scripts build",
     "prepublish": "npm run --if-present build"
   },
-  "keywords": [
-    "textlint",
-    "rule"
-  ],
   "devDependencies": {
     "textlint-scripts": "^1.1.0"
   }
