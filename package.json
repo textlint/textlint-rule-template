@@ -11,9 +11,10 @@
     "prepublish": "npm run --if-present build"
   },
   "keywords": [
-    "textlint"
+    "textlint",
+    "rule"
   ],
   "devDependencies": {
-    "textlint-scripts": "^1.0.1"
+    "textlint-scripts": "^1.1.0"
   }
 }

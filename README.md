@@ -11,9 +11,9 @@ Requirement:
 
 Run following steps:
 
-```
+```sh
 ruleName="textlint-rule-<rule-name>"
-git clone textlint-rule-template ${ruleName}
+git clone --depth=1 https://github.com/textlint/textlint-rule-template ${ruleName}
 cd ${ruleName}
 # Initialize git
 rm -rf .git/
@@ -27,6 +27,8 @@ npm install
 ```
 
 ## Usage
+
+See [textlint-scripts](https://github.com/textlint/textlint-scripts "textlint-scripts") for more details.
 
 ### Build
 
