@@ -1,8 +1,7 @@
 {
   "version": "1.0.0",
   "keywords": [
-    "textlint",
-    "rule"
+    "textlintrule"
   ],
   "main": "lib/index.js",
   "files": [
