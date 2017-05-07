@@ -1,5 +1,7 @@
 # textlint-rule template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/textlint/textlint-rule-template.svg)](https://greenkeeper.io/)
+
 This is TEMPLATE REPOSITORY for creating textlint rule.
 
 ## Install
