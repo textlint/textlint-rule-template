@@ -17,6 +17,7 @@ git clone --depth=1 https://github.com/textlint/textlint-rule-template.git ${rul
 cd ${ruleName}
 # Initialize git
 rm -rf .git/
+rm -rf .github/
 git init
 # Initialize npm
 npm init
