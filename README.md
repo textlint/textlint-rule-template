@@ -9,7 +9,14 @@ Requirement:
 - Git
 - Node.js
 
-Run following steps:
+Use [create-textlint-rule](https://github.com/textlint/create-textlint-rule):
+
+```
+$ npx create-textlint-rule example
+```
+
+
+Or, Run following steps manually:
 
 ```sh
 ruleName="textlint-rule-<rule-name>"
