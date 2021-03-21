@@ -15,6 +15,6 @@
   },
   "devDependencies": {
     "textlint-scripts": "^3.0.0",
-    "textlint-tester": "^5.3.3"
+    "textlint-tester": "^5.3.4"
   }
 }
