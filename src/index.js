@@ -1,5 +1,4 @@
-"use strict";
-module.exports = function(context, options = {}) {
+export default function(context, options = {}) {
     const {Syntax, RuleError, report, getSource} = context;
     return {
         [Syntax.Str](node){ // "Str" node

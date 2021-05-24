@@ -1,8 +1,8 @@
 "use strict";
-const TextLintTester = require("textlint-tester");
+import TextLintTester from "textlint-tester";
 const tester = new TextLintTester();
 // rule
-const rule = require("../src/index");
+import rule from "../src/index";
 // ruleName, rule, { valid, invalid }
 tester.run("rule", rule, {
     valid: [
