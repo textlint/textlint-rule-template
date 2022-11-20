@@ -1,13 +1,18 @@
-"use strict";
 import TextLintTester from "textlint-tester";
-const tester = new TextLintTester();
-// rule
 import rule from "../src/index";
+
+const tester = new TextLintTester();
 // ruleName, rule, { valid, invalid }
 tester.run("rule", rule, {
     valid: [
         // no problem
-        "text"
+        "text",
+        {
+            text: "It is bugs, but it should be ignored",
+            options: {
+                allows: ["it should be ignored"]
+            }
+        }
     ],
     invalid: [
         // single match
@@ -16,8 +21,7 @@ tester.run("rule", rule, {
             errors: [
                 {
                     message: "Found bugs.",
-                    line: 1,
-                    column: 7
+                    range: [6, 10]
                 }
             ]
         },
@@ -29,16 +33,14 @@ One more bugs`,
             errors: [
                 {
                     message: "Found bugs.",
-                    line: 1,
-                    column: 13
+                    range: [12, 16]
                 },
                 {
                     message: "Found bugs.",
-                    line: 3,
-                    column: 10
+                    range: [28, 32]
                 }
             ]
         },
-
+    
     ]
 });

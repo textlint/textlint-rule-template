@@ -7,7 +7,8 @@ This is TEMPLATE REPOSITORY for creating textlint rule.
 Requirement:
 
 - Git
-- Node.js
+- Node.js 16+
+- npm 8+
 
 Use [create-textlint-rule](https://github.com/textlint/create-textlint-rule):
 
