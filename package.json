@@ -14,8 +14,8 @@
     "prepublish": "npm run --if-present build"
   },
   "devDependencies": {
-    "@textlint/types": "^13.0.5",
-    "textlint-scripts": "^13.0.5",
-    "textlint-tester": "^13.0.5"
+    "@textlint/types": "^13.1.0",
+    "textlint-scripts": "^13.1.0",
+    "textlint-tester": "^13.1.0"
   }
 }
