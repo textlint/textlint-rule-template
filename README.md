@@ -30,7 +30,7 @@ git init
 npm init
 npm install
 # Initialize README
-# Notice: force update exist README.md
+# Notice: force update existing README.md
 ./node_modules/.bin/textlint-scripts init
 ```
 
