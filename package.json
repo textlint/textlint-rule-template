@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@textlint/types": "^15.5.2",
-    "textlint-scripts": "^15.5.2",
-    "textlint-tester": "^15.5.2"
+    "textlint-scripts": "^15.5.3",
+    "textlint-tester": "^15.5.3"
   }
 }
